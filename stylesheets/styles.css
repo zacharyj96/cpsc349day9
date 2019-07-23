@@ -7,3 +7,32 @@
     border: 1px solid black;
 }
 
+.centerTile {
+	background: url('/svg/Tile.svg') no-repeat -89px -44px;
+	width: 42px;
+	height: 42px;
+}
+
+.rightTile {
+	background: url('/svg/Tile.svg') no-repeat -134px -44px;
+	width: 42px;
+	height: 42px;
+}
+
+.leftTile {
+	background: url('/svg/Tile.svg') no-repeat -44px -44px;
+	width: 42px;
+	height: 42px;
+}
+
+.bottomTile {
+	background: url('/svg/Tile.svg') no-repeat -89px -90px;
+	width: 42px;
+	height: 42px;
+}
+
+.topTile {
+	background: url('/svg/Tile.svg') no-repeat -89px 0;
+	width: 42px;
+	height: 42px;
+}
