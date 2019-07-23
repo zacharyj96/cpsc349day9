@@ -97,7 +97,7 @@
 
     <h2>Player 1</h2>
     <nav id="player1">
-        <button data-direction="up">w</button>
+        <button data-direction="up" onclick="upPress('player1');">w</button>
         <button data-direction="left">a</button>
         <button data-direction="down">s</button>
         <button data-direction="right">f</button>
@@ -105,7 +105,7 @@
 
     <h2>Player 2</h2>
     <nav id="player2">
-        <button data-direction="up">i</button>
+        <button data-direction="up" onclick="upPress('player2');">i</button>
         <button data-direction="left">j</button>
         <button data-direction="down">k</button>
         <button data-direction="right">l</button>
@@ -118,5 +118,7 @@
             <li>Sprite sheet CSS courtesy of <a href="http://www.spritecow.com/">Sprite Cow</a>.</li>
         </ul>
     </footer>
+	
+	<script type="text/javascript" src="/scripts/scripts.js"></script>
 </body>
 </html>
