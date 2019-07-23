@@ -36,3 +36,21 @@
 	width: 42px;
 	height: 42px;
 }
+
+.player1 {
+	background: url('/png/Idle.png') no-repeat;
+	background-size: contain;
+	max-width: 23px;
+	max-height: 30px;
+	width: 23px;
+	height: 30px;
+}
+
+.player2 {
+	background: url('/png/Idle_000.png') no-repeat;
+	background-size: contain;
+	max-width: 23px;
+	max-height: 30px;
+	width: 23px;
+	height: 30px;
+}
