@@ -88,3 +88,25 @@ function rightPress(playerName) {
 		}
 	}
 }
+
+document.onkeyup = function(event) {
+	event = event || window.event;
+	var key = event.key || event.which || event.keyCode;
+	if (key == 'w') {
+		upPress("player1");
+	} else if (key == 'a') {
+		leftPress("player1");
+	} else if (key == 's') {
+		downPress("player1");
+	} else if (key == 'd') {
+		rightPress("player1");
+	} else if (key == 'i') {
+		upPress("player2");
+	} else if (key == 'j') {
+		leftPress("player2");
+	} else if (key == 'k') {
+		downPress("player2");
+	} else if (key == 'l') {
+		rightPress("player2");
+	}
+};
